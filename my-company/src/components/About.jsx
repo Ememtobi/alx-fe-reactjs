@@ -1,10 +1,10 @@
-import React from 'react';
-
-const About = () => (
-  <div>
-    <h1>About Page</h1>
-    <p>Learn more about us on this page.</p>
-  </div>
-);
+function About() {
+  return (
+    <div style={{ padding: '20px' }}>
+      <h1>About Us</h1>
+      <p>Our company has been providing top-notch services since 1990. We specialize in various fields including technology, marketing, and consultancy.</p>
+    </div>
+  );
+}
 
 export default About;
